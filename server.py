@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "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"
+API_KEY = "i remove API key for security reasons "
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 @app.route("/chat", methods=["POST"])
@@ -30,3 +30,4 @@ def chat():
 
 if __name__ == "__main__":
     app.run(port=5000, debug=True)
+
